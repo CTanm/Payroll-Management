@@ -18,7 +18,8 @@ html{
     border-radius: 50px;
 }
 .navbar{
-    display: flex;
+    display: inline-flex;
+    width: 100%;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -28,7 +29,7 @@ html{
 }
 .nav-list{
       width: 50%;
-     
+     text-align: left;
      display: flex;
      align-items: center;
 }
